@@ -1,4 +1,4 @@
-# Unit 04 Web APIs Homework: Code Quiz
+# Unit 04 Web APIs Application: Code Quiz
 
 As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment. These assessments are typically a combination of multiple-choice questions and interactive challenges. In this homework assignment, your challenge is to build a code quiz with multiple-choice questions.
 
@@ -32,79 +32,20 @@ How do you deliver this? Here are some guidelines:
 ![code quiz](./Assets/04-Web-APIs-homework-demo.gif)
 
 
-### Hints
-
-* Store your questions as an array of objects in a separate file, `questions.js`, that follows this format:
-
-```js
-var questions = [
-  {
-    title: "Commonly used data types DO NOT include:",
-    choices: ["strings", "booleans", "alerts", "numbers"],
-    answer: "alerts"
-  },
-  {
-    title: "The condition in an if / else statement is enclosed within ____.",
-    choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-    answer: "parentheses"
-  },
-  ///etc.
-];
-```
-
 * The length of the array in `questions.js` determines the length of play. Fifteen seconds per question is a good estimate, so 5 questions will result in a length of play of 75 seconds.
 
 
-## Minimum Requirements
+## Application Purpose
 
-* Functional, deployed application.
-
-* GitHub repository with README describing project.
-
-* The first view of the application displays a button that starts the quiz.
-
-* Clicking the start button displays a series of questions.
-
-* Once the quiz begins, a timer starts.
-
-* If a question is answered incorrectly, additional time is subtracted from the timer.
-
-* The timer stops when all questions have been answered or the timer reaches 0.
-
-* After the game ends, the user can save their initials and score to a highscores view using local storage.
-
-
-* Create multiple quizzes and an option for users to choose between them.
-
-* Add the application to your portfolio.
-
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+* Creates multiple quizzes and an option for users to choose between them.
 
 
 
 
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository
 
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+
+
 
