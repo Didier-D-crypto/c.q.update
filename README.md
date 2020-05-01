@@ -8,7 +8,7 @@ As you proceed in your career as a web developer, you will probably be asked to 
 From scratch, build a timer-based quiz application that stores high scores client-side. Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
 
 ```
-As a coding bootcamp student
+As a coding student
 I want to take a timed quiz on JavaScript fundamentals that stores high scores
 so that I can gauge my progress compared to my peers
 ```
@@ -25,12 +25,7 @@ How do you deliver this? Here are some guidelines:
 
   * When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. Their final score and initials are then stored in `localStorage`.
 
-* Your application should also be responsive, ensuring that it adapts to multiple screen sizes.
-
-* Refer to the animated GIF below for a demonstration of the application functionality.
-
-![code quiz](./Assets/04-Web-APIs-homework-demo.gif)
-
+* This application is responsive, ensuring that it adapts to multiple screen sizes.
 
 * The length of the array in `questions.js` determines the length of play. Fifteen seconds per question is a good estimate, so 5 questions will result in a length of play of 75 seconds.
 
